@@ -1,0 +1,83 @@
+/*!
+ * Urchin v1.0.0
+ * A minimal CSS grid with ajustable gutters.
+ * Tony LAURENT <contact@tony-laurent.com>
+ */
+
+.urchin * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+/**
+ * Row
+ */
+
+.urchin .row:before,
+.urchin .row:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+
+/**
+ * Column
+ */
+
+.urchin [class^='column-'] {
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .urchin [class^='column-'] {
+    float: left;
+  }
+}
+
+
+/**
+ * Gutter
+ */
+ 
+@media (min-width: 767px) {
+  .urchin.gutter-10 .row { margin: 0 -10px; }
+  .urchin.gutter-10 [class^='column-'] { padding: 0 10px; }
+
+  .urchin.gutter-12 .row { margin: 0 -12px; }
+  .urchin.gutter-12 [class^='column-'] { padding: 0 12px; }
+
+  .urchin.gutter-14 .row { margin: 0 -14px; }
+  .urchin.gutter-14 [class^='column-'] { padding: 0 14px; }
+
+  .urchin.gutter-16 .row { margin: 0 -16px; }
+  .urchin.gutter-16 [class^='column-'] { padding: 0 16px; }
+
+  .urchin.gutter-18 .row { margin: 0 -18px; }
+  .urchin.gutter-18 [class^='column-'] { padding: 0 18px; }
+
+  .urchin.gutter-20 .row { margin: 0 -20px; }
+  .urchin.gutter-20 [class^='column-'] { padding: 0 20px; }
+}
+
+
+/**
+ * Column
+ */
+ 
+@media (min-width: 767px) {
+  .urchin .column-1  { width: 8.333333333%; }
+  .urchin .column-2  { width: 16.666666667%; }
+  .urchin .column-3  { width: 25%; }
+  .urchin .column-4  { width: 33.333333333%; }
+  .urchin .column-5  { width: 41.666666667%; }
+  .urchin .column-6  { width: 50%; }
+  .urchin .column-7  { width: 58.333333333%; }
+  .urchin .column-8  { width: 66.666666667%; }
+  .urchin .column-9  { width: 75%; }
+  .urchin .column-10 { width: 83.333333333%; }
+  .urchin .column-11 { width: 91,666666667%; }
+  .urchin .column-12 { width: 100%; }
+}
