@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link href="urchin.min.css" rel="stylesheet" type="text/css" />
+    <link href="urchin.css" rel="stylesheet" type="text/css" />
      
     <style type="text/css">
       body {
@@ -14,72 +14,346 @@
         margin: auto;
       }
 
-      .urchin {
-        background-color: #FF0000;
-      }
-
-      p {
-        background-color: #90EE90;
-        margin: 0 0 20px 0;
+      .uc p {
+        margin: 0 0 10px 0;
+        padding: 4px 2px;
+        font-size: 12px;
       }
     </style>
   </head>
   
   <body>
+    <!-- Container -->    
     <div class="container">
-      <div class="urchin gutter-10">
-        <div class="row">
-          <div class="column-6">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-            
-            <div class="row">
-              <div class="column-4">
-                <p>Column</p>
-              </div>
+      <h1>Urchin</h1>
+      <p>A collection of flexible responsive CSS grid.</p>
 
-              <div class="column-4">
-                <p>Column</p>
-              </div>
-
-              <div class="column-4">
-                <p>Column</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column-6">
-            <p>Column</p>
-          </div>          
-        </div>
-
-        <div class="row">
-          <div class="column-1">
-            <p>Column</p>
-          </div>
-        
-          <div class="column-1">
-            <p>Column</p>
-          </div>
-        
-          <div class="column-1">
-            <p>Column</p>        
-          </div>
-        
-          <div class="column-9">
-            <p>Column</p>
+      <!-- 2 columns -->
+      <section>
+        <h2>2 columns</h2>
+        <div class="uc uc-2 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
           </div>
         </div>
+      <section>
+      <!-- 2 columns -->
 
-        <div class="row">
-          <div class="column-2">
-            <p>Column</p>
+      <!-- 3 columns -->
+      <section>
+        <h2>3 columns</h2>
+        <div class="uc uc-3 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
           </div>
-        
-          <div class="column-10">
-            <p>Column</p>
+
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-2"><p>Column 2</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-2"><p>Column 2</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
           </div>
         </div>
-      </div>      
+      <section>
+      <!-- 3 columns -->
+
+      <!-- 4 columns -->
+      <section>
+        <h2>4 columns</h2>
+        <div class="uc uc-4 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-2"><p>Column 2</p></div>
+            <div class="uc-column-2"><p>Column 2</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-3"><p>Column 3</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 4 columns -->
+
+      <!-- 5 columns -->
+      <section>
+        <h2>5 columns</h2>
+        <div class="uc uc-5 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-2"><p>Column 2</p></div>
+            <div class="uc-column-3"><p>Column 3</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-2"><p>Column 2</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 5 columns -->
+
+      <!-- 6 columns -->
+      <section>
+        <h2>6 columns</h2>
+        <div class="uc uc-6 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-3"><p>Column 3</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-2"><p>Column 2</p></div>
+            <div class="uc-column-4"><p>Column 4</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 6 columns -->
+
+      <!-- 7 columns -->
+      <section>
+        <h2>7 columns</h2>
+        <div class="uc uc-7 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-4"><p>Column 4</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-4"><p>Column 4</p></div>
+            <div class="uc-column-3"><p>Column 3</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 7 columns -->
+
+      <!-- 8 columns -->
+      <section>
+        <h2>8 columns</h2>
+        <div class="uc uc-8 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-4"><p>Column 4</p></div>
+            <div class="uc-column-4"><p>Column 4</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-5"><p>Column 5</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 8 columns -->
+
+      <!-- 9 columns -->
+      <section>
+        <h2>9 columns</h2>
+        <div class="uc uc-9 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-6"><p>Column 6</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-6"><p>Column 6</p></div>
+            <div class="uc-column-3"><p>Column 3</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 9 columns -->
+         
+      <!-- 10 columns -->
+      <section>
+        <h2>10 columns</h2>
+        <div class="uc uc-10 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-5"><p>Column 5</p></div>
+            <div class="uc-column-5"><p>Column 5</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-7"><p>Column 7</p></div>
+          </div>
+        </div>
+      </section>
+      <!-- / 10 columns -->
+
+      <!-- 12 columns -->
+      <section>
+        <h2>12 columns</h2>
+        <div class="uc uc-12 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-6"><p>Column 6</p></div>
+            <div class="uc-column-6"><p>Column 6</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-9"><p>Column 9</p></div>
+          </div>
+        </div>
+      </section>
+      <!-- / 12 columns -->
+
+      <!-- 14 columns -->
+      <section>
+        <h2>14 columns</h2>
+        <div class="uc uc-14 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-7"><p>Column 7</p></div>
+            <div class="uc-column-7"><p>Column 7</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 4</p></div>
+            <div class="uc-column-11"><p>Column 10</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 14 columns -->      
+
+      <!-- 16 columns -->
+      <section>
+        <h2>16 columns</h2>
+        <div class="uc uc-16 uc-gutter-10 uc-visible">
+          <div class="uc-row">
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+            <div class="uc-column-1"><p>Column 1</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-8"><p>Column 8</p></div>
+            <div class="uc-column-8"><p>Column 8</p></div>
+          </div>
+
+          <div class="uc-row">
+            <div class="uc-column-3"><p>Column 3</p></div>
+            <div class="uc-column-13"><p>Column 13</p></div>
+          </div>
+        </div>
+      <section>
+      <!-- 16 columns -->      
     </div>
+    <!-- / Container -->   
   </body>
 </html>
