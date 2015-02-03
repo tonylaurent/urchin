@@ -1,0 +1,30 @@
+{
+  "name": "urchin",
+  "version": "1.0.0",
+  "description": "A collection of CSS grids with adjustable gutters.",
+  "main": "urchin.min.css",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonylaurent/urchin.git"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "collection",
+    "gutter"
+  ],
+  "author": "Tony LAURENT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonylaurent/urchin/issues"
+  },
+  "homepage": "https://github.com/tonylaurent/urchin"
+}
