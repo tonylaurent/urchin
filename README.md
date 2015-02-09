@@ -1,6 +1,6 @@
 # Urchin 
 
-**A collection of CSS grid with ajustable gutters.**
+**Collection of CSS grid with ajustable gutters.**
 
 * Responsive
 * Nestable and combinable
